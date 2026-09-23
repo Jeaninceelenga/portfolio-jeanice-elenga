@@ -1,0 +1,18 @@
+.about {
+  max-width: 640px;
+  margin: 0 auto;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.about__text {
+  border-left: 3px solid var(--amber);
+  padding-left: 1.5rem;
+}
+
+.about__text p {
+  margin-bottom: 1rem;
+}

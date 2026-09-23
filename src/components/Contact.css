@@ -1,0 +1,23 @@
+.contact {
+  max-width: 480px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+.contact__intro {
+  color: var(--steel);
+  margin-bottom: 1.5rem;
+}
+
+.contact__links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  border: 2px dashed var(--steel);
+  padding: 1.5rem;
+}

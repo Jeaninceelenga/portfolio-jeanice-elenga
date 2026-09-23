@@ -1,0 +1,9 @@
+.experience {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.experience h2 {
+  font-size: 1.6rem;
+  margin-bottom: 1.5rem;
+}

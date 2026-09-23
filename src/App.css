@@ -1,0 +1,41 @@
+:root {
+  --navy: #1B2A41;
+  --steel: #5C6B73;
+  --paper: #F5F3EE;
+  --ink: #1F1F1F;
+  --amber: #E8A33D;
+  --white: #FFFFFF;
+  --font-head: 'Oswald', sans-serif;
+  --font-body: 'Work Sans', sans-serif;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  background: var(--paper);
+  color: var(--ink);
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-family: var(--font-head);
+  font-weight: 600;
+  color: var(--navy);
+  margin: 0;
+}
+
+.App {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+section {
+  padding: 4rem 1.5rem;
+  scroll-margin-top: 80px;
+}
+
+section + section {
+  border-top: 1px solid rgba(27, 42, 65, 0.1);
+}
